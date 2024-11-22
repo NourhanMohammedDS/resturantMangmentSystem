@@ -1,4 +1,4 @@
-public class menueItem {
+public class MenueItem {
     String itemTitle;
     double itemPrice;
     public void printMenue(){
