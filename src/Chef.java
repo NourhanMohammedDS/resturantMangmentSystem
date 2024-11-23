@@ -2,9 +2,17 @@ public class Chef {
     String name ;
     int age;
     String specialty;
-    public void printChefData(){
-        System.out.println(name);
-        System.out.println(age);
-        System.out.println(specialty);
+
+    Chef(){
+        System.out.println("this chef constructor");
     }
+    Chef(String name){
+        System.out.println(name);
+    }
+    Chef(String name,int age,String specialty){
+        System.out.println("----------------------");
+        System.out.println("chef : "+name+"\nage : "+age+"\nspecialty : "+specialty);
+    }
+
+
 }
